@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,300&display=swap');
+
+h1,
+h2,
+h3 {
+  font-family: Roboto;
+  margin-top: 1.5em;
+  margin-bottom: 0.25em;
+}
+
+h1 {
+  font-size: 32px;
+}
+
+p,
+li,
+caption,
+th,
+td {
+  font-family: Montserrat;
+}
+
+figcaption {
+  font-family: Montserrat;
+  font-style: italic;
+  font-size: 12px;
+}
+
+body {
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  background-color: rgb(243, 216, 183);
+}
+
+figure {
+  float: right;
+  clear: right;
+}
+
+section {
+  display: inline-block;
+}
+
+table {
+  border-collapse: collapse;
+  border: 1px solid rgb(0, 0, 0);
+}
+
+th, td {
+  border: 1px solid rgb(0, 0, 0);
+}
+
+a {
+  color:rgb(185, 29, 55)
+}
